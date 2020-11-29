@@ -1,5 +1,4 @@
 import { selector } from "recoil";
-
 import { tasksState } from "../index";
 
 export const unfinishedTaskState = selector({

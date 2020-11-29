@@ -4,7 +4,6 @@ import { tasksState } from "../atoms/Tasks";
 
 const TaskItem = ({ title, index, isCompleted }) => {
   const [task, setTask] = useRecoilState(tasksState);
-  console.log(task);
 
   const isCompleteChange = (index) => {
     let newTask = task.filter((item, i) => i === index);
